@@ -7,6 +7,17 @@ body {
     font-style: sans-serif;
     font-family: Verdana, sans-serif;
 }
+
+menu{
+    display: grid;
+}
+
+h2,h3 {
+    text-transform: uppercase;
+}
+img {
+    width: 5rem;
+}
   
   
 @media (min-width: 701px){ /*version web*/
