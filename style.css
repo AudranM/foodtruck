@@ -209,3 +209,15 @@ img {
         display: none;
     }
 }
+@media (prefers-color-scheme: dark) {
+    body {
+    background-color: #2f2f2f;
+    color: #dbdbdb;
+    }
+    a {
+    color: #5fa9ee;
+    }
+    img {
+    filter: grayscale(25%);
+    }
+    }
