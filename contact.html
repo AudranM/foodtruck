@@ -38,9 +38,15 @@
         <label for="prenom">Prénom</label>
         <input type ="text"name="prenom" id="prenom" required>  
 
-        <label for="location"></label>
-        <input type ="text"name="location" id="location" required>
-
+        <label for="location">Localisation:</label>
+        <select name="location" id="location" required>
+          <option value="iut">Bibliothèque IUT Feyssine</option>
+          <option value="squareEG">Square Evariste Galois</option>
+          <option value="autre">Autre</option>
+        </select>
+        <textarea id="si_autre" name="si_autre" placeholder="Si vous avez choisi &#34autre&#34 à la question précédente, précisez ici:"></textarea>
+<!--Pourquoi telle localisation, horaire, pourquoi les localisations actuelles ne vont pas-->
+<!--penser à ajouter aussi un lien vers une page qui donne quelles donnees on voudrait que le serveur renvoit au client. -->
         <button type="submit">Envoyer</button>
         
       </form>
