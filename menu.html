@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <title>Crous Truck! Arrive bientôt!</title>
+    <title>Crous Truck - Nos Offres</title>
   </head>
   <body>
     <nav>
@@ -20,7 +20,7 @@
             <h1>Le Crous Truck</h1>
           </div>
           <div class="menu-items"> <!--Ici, on a nos liens vers nos pages du menu de navigation-->
-            <ul>
+            <ul class="navigation">
               <li><a href="menu.html">Nos Offres</a></li>  <!-- NOTE A NOUS MEME DEMANDER SI ./ EST NECESSAIRE POUR ELLE-->
               <li><a href="nous.html">Qui Sommes Nous ?</a></li>
               <li><a href="contact.html">Contact</a></li>
@@ -33,7 +33,6 @@
   <div class="title">
     <h1>Nos Offres</h1>
   </div>
-   
     
     <!--Liste des plats-->
     <section id="menu" class="menu">
@@ -46,54 +45,89 @@
         <div class="item">
           <h3>Le Boeuf</h3>
           <img id="img" src="img/burger1.png">
-          <p>Steak de boeuf haché sur place, Cheddar affiné, Dés de tomate, Confit d’oignon, Salade mâche, Sauce cocktail</p>
-          <p>5,60€</p>
+          <p class=offre>Bun classique, Steak de boeuf haché sur place, Cheddar affiné, Tomate, Confit d’oignon, Salade mâche, Sauce cocktail</p>
+          <p class="price">5,60€</p>
         </div>
 
         <div class="item">
-          <h3>Le Poulet</h3>
+          <h3>Le Veau</h3>
           <img id="img" src="img/burger2.png">
-          <p>Croustillants de Poulet, Poitrine grillée, Tranches d’avocat, Confit d’oignon, Tomme de Savoie, Salade mâche, Sauce Barbecue</p>
-          <p>5,30€</p>
+          <p class="offre">Bun au grène, Steak de veau citron, Confit d’oignon, Cheddar, Salade mâche, Sauce thaï</p>
+          <p class="price">5,30€</p>
         </div>
 
         <div class="item">
           <h3>Le Vegan</h3>
           <img id="img" src="img/burger3.png">
-          <p>Pain Vegan à l’huile d’olive, Steak végétal, cornichon, tomate en dés, mâche, ketchup naturel au piment d’Espelette</p>
-          <p>5,90€</p>
+          <p class="offre">Pain Vegan au charbon végétal activé, Steak végétal, Cornichon, Tomate, Mâche, Oigons, Ketchup naturel au piment d’Espelette</p>
+          <p class="price">5,90€</p>
         </div>
 
         <h2>Les Sandwichs</h2>
 
         <div class="item">
-          <h3>Le Classique</h3>
+          <h3>Le Végé</h3>
           <img id="img" src="img/sandwich1.png">
-            <p>Beurre, jambon, fromage, oeufs, tomates</p>
-            <p>3,60€</p>
+            <p class="offre">Double pain de mie au graine, Beurre, Concombre, Oigons, Oeufs, Salade</p>
+            <p class="price">3,60€</p>
         </div>
 
         <div class="item">
-          <h3>Le Poulet</h3>
+          <h3>L'Avocat</h3>
           <img id="img" src="img/sandwich2.png">
-            <p>Mayonnaise, tomate, oeufs, salade, blanc de poulet</p>
-            <p>3,90€</p>
+            <p class=offre>Mayonnaise, Tomate, Oeufs, Salade, Avocat</p>
+            <p class="price">3,90€</p>
         </div>
 
         <div class="item">
-          <h3>Le Thon</h3>
-          <img id="img" src="img/burger1.png">
-            <p>Mayonnaise, tomate, oeufs, salade, miettes de thon</p>
-            <p>3,50€</p>
+          <h3>Le Wrap Poulet</h3>
+          <img id="img" src="img/wrap.png">
+            <p class=offre>Mayonnaise, Tomate, Poulet, Salade, Oigons</p>
+            <p class="price">3,50€</p>
         </div>
 
         <div class="item">
           <h3>Hot Dog</h3>
           <img id="img" src="img/hotdog.png">
-            <p>Pain artisanal, Cheddar, oignons confits</p>
-            <p>3,00€</p>
+            <p class=offre>Pain artisanal, Cheddar, oignons confits</p>
+            <p class="price">3,00€</p>
         </div>
+
+        <h2>Les Desserts</h2>
+
+        <div class="item">
+          <h3>Cookies</h3>
+          <img id="img" src="img/cooki.png">
+            <p class=offre>Cookies maison frais</p>
+            <p class="price">1,00€</p>
+        </div>
+        <div class="item">
+          <h3>Muffin</h3>
+          <img id="img" src="img/muffin.png">
+            <p class=offre>Muffin maison</p>
+            <p class="price">1,60€</p>
       </div>
+        <h2>Les Boissons</h2>
+
+        <div class="item">
+          <h3>Café</h3>
+          <img id="img" src="img/coffee.png">
+            <p class=offre>Café Pérouvien fairtrade</p>
+            <p class="price">1,00€</p>
+        </div>
+        <div class="item">
+          <h3>Limonade</h3>
+          <img id="img" src="img/soda.png">
+            <p class=offre>Limonade maison au citron</p>
+            <p class="price">1,20€</p>
+      </div>
+      <div class="item">
+        <h3>Coca</h3>
+        <img id="img" src="img/coca.png">
+          <p class=offre>Coca Maison</p>
+          <p class="price">1,30€</p>
+        </div>
+    </div>
   </section>
   </body>
 </html>
