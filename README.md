@@ -4,7 +4,8 @@
 Ce projet a été élaboré par Léa Berne et Audran Malosse dans le cadre de la SAE (Situation d'Apprentissage et d'Evaluation ) pour le cours de développement Web en 2022. 
 ## Programme de la séance du 02.12
 - faire le formulaire (Léa)
-- faire le menu version web(Audran)
+- faire le menu version web (Audran)
+- rajouter les images dans les offres (Audran)
 
 ## Suggestions for a good README:
 ## Description
