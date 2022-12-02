@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Crous Truck! Arrive bientôt!</title>
+    <title>Crous Truck - Contact </title>
   </head>
   <body>
     <nav>
@@ -29,10 +29,24 @@
       </div>
     </nav>
     <main>
+      <h1>Contact</h1>
+      <p>Vous souhaitez que le Crous Truck s'arrête près de votre bâtiment? Complétez ce formulaire et nous étudirons votre demande ! </p>
+      <form method="post" action="https://perso.liris.cnrs.fr/pierre-antoine.champin/enseignement/intro-web/_static/formproc/debug">
+        <label for="nom">Nom</label>
+        <input type ="text"name="nom" id="nom" required>
 
+        <label for="prenom">Prénom</label>
+        <input type ="text"name="prenom" id="prenom" required>  
+
+        <label for="location"></label>
+        <input type ="text"name="location" id="location" required>
+
+        <button type="submit">Envoyer</button>
+        
+      </form>
     </main>
     <footer>
-      
+
     </footer>
   </body>
 </html>
