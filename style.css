@@ -83,7 +83,7 @@ img {
     .nav-container{
         padding: 1rem;
         display: grid;
-        grid-template-columns: 12rem auto;
+        grid-template-columns: 13rem auto;
         width: 100%;
         position: fixed;
         background-color: rgb(111, 182, 151);
@@ -96,8 +96,7 @@ img {
     .navigation {
         display: flex;
         justify-content: space-around;
-        /* border-top: #3c3c3c 0.5px solid;
-        border-bottom: #3c3c3c 0.5px solid; */
+        padding-top: 0.4rem;
     }
 
     .navigation li {
