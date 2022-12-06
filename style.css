@@ -46,7 +46,9 @@ h3 {
     text-align: center;
     font-weight: 300;
 }
-
+/*Ca, ça génère des problèmes d'affichages dans certains cas, je crois que tu 
+l'avais mis pour tes descriptions sur les offres, et pour éviter ce genre de problème
+il vaut mieux que tu mette une classe à tes descriptions de plats :D */
 p {
     width: fit-content;
     font-weight: 100;
