@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Crous Truck - Contact </title>
   </head>
@@ -29,22 +29,22 @@
       </div>
     </nav>
     <main>
-      <h1>Contact</h1>
+      <h2>Contact</h2>
       <p>Vous souhaitez que le Crous Truck s'arrête près de votre bâtiment? Complétez ce formulaire et nous étudirons votre demande ! </p>
       <form method="post" action="https://perso.liris.cnrs.fr/pierre-antoine.champin/enseignement/intro-web/_static/formproc/debug">
         <label for="nom">Nom</label>
-        <input type ="text"name="nom" id="nom" required>
+        <input type ="text" name="nom" id="nom" required>
 
         <label for="prenom">Prénom</label>
-        <input type ="text"name="prenom" id="prenom" required>  
+        <input type ="text" name="prenom" id="prenom" required>  
 
         <label for="location">Localisation:</label>
         <select name="location" id="location" required>
+          <option value="">Choisissez votre localisation préférée</option>
           <option value="iut">Bibliothèque IUT Feyssine</option>
           <option value="squareEG">Square Evariste Galois</option>
-          <option value="autre">Autre</option>
         </select>
-        <textarea id="si_autre" name="si_autre" placeholder="Si vous avez choisi &#34autre&#34 à la question précédente, précisez ici:"></textarea>
+        
 <!--Pourquoi telle localisation, horaire, pourquoi les localisations actuelles ne vont pas-->
 <!--penser à ajouter aussi un lien vers une page qui donne quelles donnees on voudrait que le serveur renvoit au client. -->
         <button type="submit">Envoyer</button>
