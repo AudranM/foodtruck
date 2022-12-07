@@ -58,7 +58,7 @@ p.price {
     padding: 1rem;
     padding-left: 16rem;
 }
-/*AUDRAN: je sais pas ce que */
+
 #img {
     margin-bottom: 1rem;
     max-width: 100%;
@@ -69,6 +69,17 @@ p.price {
 img {
     width: max-content;
 }
+
+/*placement des images du footer*/
+.footer_imgs{
+    max-width: 5rem;
+    
+}
+.footer_icns{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 /*Ci après, permet de faire la carte en responsive: */
 @media (min-width: 701px) and  (max-width: 1130px) {
     .produits {
@@ -123,11 +134,11 @@ img {
         font-variant: small-caps;
         font-size: large;
     }
-    a, a:visited {
+    a, a:visited{
         color: black;
         text-decoration: none;
     }
-    a:hover {
+    li a:hover, .main-title:hover {
         font-weight: bold; 
     }
     
@@ -139,10 +150,11 @@ img {
         display: grid;
     }
     /*Placement image sur la page A CHANGER PARCE QU'ELLE A DIT DE CHARGER DEUX IMAGES
-     UNE POUR WEB UNE POUR MOBILE*/
+    UNE POUR WEB UNE POUR MOBILE*/
     #mainimg {
         width: 30rem;
     }
+
 }
 
     /*ci-après, la version mobile : */
@@ -161,6 +173,10 @@ img {
         font-style: italic;
         font-size: smaller;
     }
+    #mainimg {
+        width: 30rem;
+    }
+    /*version responsive du tableau dans "A propos de nous" */
     .thead_nous {
         display: none;
     }
@@ -173,14 +189,13 @@ img {
         display: flex;
         flex-direction: column;
     }
-    #mainimg {
-        width: 30rem;
-    }
-    /*Le code ci-après permet de faire le menu burger et a été trouvé sur le site:  https://codepen.io/alvarotrigo/pen/wvrzPWL,
-    Nous avons apporté quelques modifications esthétiques, et nous l'avons adapté pour notre site.*/
+
     .tab_categorie::before {
         content: "Categorie ";
     }
+
+    /*Le code ci-après permet de faire le menu burger et a été trouvé sur le site:  https://codepen.io/alvarotrigo/pen/wvrzPWL,
+    Nous avons apporté quelques modifications esthétiques, et nous l'avons adapté pour notre site.*/
 
     .navbar {
         width: 100%;
