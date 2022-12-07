@@ -129,7 +129,6 @@ img {
     }
     a:hover {
         font-weight: bold; 
-        /* font-style: italic; */
     }
     /*Placement des produits sur la page*/
 
@@ -162,7 +161,7 @@ img {
         font-style: italic;
         font-size: smaller;
     }
-    thead {
+    .thead_nous {
         display: none;
     }
 
@@ -170,7 +169,7 @@ img {
         font-variant: small-caps;
     }
 
-    tr {
+    .tr_nous {
         display: flex;
         flex-direction: column;
     }
@@ -317,7 +316,8 @@ img {
     }
 }
 
-/* @media (prefers-color-scheme: dark) {
+/* test du dark mode: 
+    @media (prefers-color-scheme: dark) {
     body {
     background-color: #2f2f2f;
     color: #dbdbdb;
