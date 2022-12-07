@@ -152,6 +152,16 @@ img {
         margin: 0;
         padding: 0;
     }
+    #truck {
+        width: 20rem;
+        padding: 1rem 0rem 4rem 0rem;
+    }
+    #presentation {
+        padding: 2rem;
+        text-align: center;
+        font-style: italic;
+        font-size: smaller;
+    }
     thead {
         display: none;
     }
