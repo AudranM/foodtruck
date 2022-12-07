@@ -79,6 +79,11 @@ img {
     display: flex;
     flex-direction: row-reverse;
 }
+footer{
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: rgb(111, 182, 151);
+}
 
 /*Ci après, permet de faire la carte en responsive: */
 @media (min-width: 701px) and  (max-width: 1130px) {
