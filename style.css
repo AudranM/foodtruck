@@ -10,7 +10,6 @@ h1 {
 }
 
 h2, h3 {
-    /* text-transform: uppercase; */
     font-variant: small-caps;
     padding: 1rem;
 }
@@ -59,7 +58,7 @@ p.price {
     padding: 1rem;
     padding-left: 16rem;
 }
-
+/*AUDRAN: je sais pas ce que */
 #img {
     margin-bottom: 1rem;
     max-width: 100%;
@@ -70,6 +69,7 @@ p.price {
 img {
     width: max-content;
 }
+/*Ci après, permet de faire la carte en responsive: */
 @media (min-width: 701px) and  (max-width: 1130px) {
     .produits {
         grid-template-columns: 1fr 1fr ;
@@ -88,9 +88,9 @@ img {
         grid-column-end: 4;
     }
 }
-@media (min-width: 701px) {
 
-    /*version web*/
+    /*ci-après, la version web :*/
+@media (min-width: 701px) {
     * {
         margin: 0;
         padding: 0;
@@ -130,8 +130,8 @@ img {
     a:hover {
         font-weight: bold; 
     }
+    
     /*Placement des produits sur la page*/
-
     main{
         padding-top: 3rem;
     }
@@ -145,17 +145,17 @@ img {
     }
 }
 
+    /*ci-après, la version mobile : */
 @media (max-width: 700px) {
-    /*version mobile*/
     * {
         margin: 0;
         padding: 0;
     }
-    #truck {
+    #img_truck {
         width: 20rem;
         padding: 1rem 0rem 4rem 0rem;
     }
-    #presentation {
+    #index_presentation {
         padding: 2rem;
         text-align: center;
         font-style: italic;
@@ -173,13 +173,13 @@ img {
         display: flex;
         flex-direction: column;
     }
-
-    .tab_categorie::before {
-        content: "Categorie ";
-    }
-
     #mainimg {
         width: 30rem;
+    }
+    /*Le code ci-après permet de faire le menu burger et a été trouvé sur le site:  https://codepen.io/alvarotrigo/pen/wvrzPWL,
+    Nous avons apporté quelques modifications esthétiques, et nous l'avons adapté pour notre site.*/
+    .tab_categorie::before {
+        content: "Categorie ";
     }
 
     .navbar {
