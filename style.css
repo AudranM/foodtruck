@@ -32,9 +32,10 @@ h2, h3 {
     text-align: center;
 }
 
-#intro {
+#intro, .contenu{
     padding: 0em 2em 0em 2em;
 }
+
 
 h2 {
     padding-left: 3rem;
@@ -69,7 +70,10 @@ p.price {
 img {
     width: max-content;
 }
-
+.contact_field {
+    display: flex;
+    flex-direction: column;
+  }
 /*placement des images du footer*/
 .footer_imgs{
     max-width: 5rem;
@@ -104,7 +108,11 @@ footer{
         grid-column-end: 4;
     }
 }
-
+#contact_form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.3rem;
+  }
     /*ci-après, la version web :*/
 @media (min-width: 701px) {
     * {
@@ -159,7 +167,16 @@ footer{
     #mainimg {
         width: 30rem;
     }
+    /*Tableau A PROPOS DE NOUS version web*/
+    .caption_nous{
 
+    }
+    /*Formulaire CONTACT version web*/
+    form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.3rem;
+      }  
 }
 
     /*ci-après, la version mobile : */
@@ -198,7 +215,14 @@ footer{
     .tab_categorie::before {
         content: "Categorie ";
     }
-
+    /*version responsive du formulaire dans "Contact"*/
+    .main_contact{
+        flex-direction: column;
+      }
+      form{
+        display: flex;
+        flex-direction: column;
+      }
     /*Le code ci-après permet de faire le menu burger et a été trouvé sur le site:  https://codepen.io/alvarotrigo/pen/wvrzPWL,
     Nous avons apporté quelques modifications esthétiques, et nous l'avons adapté pour notre site.*/
 

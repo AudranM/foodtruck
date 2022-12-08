@@ -30,39 +30,49 @@
     </nav>
     <main>
       <h1>Contact</h1>
-      <p>Vous avez adoré notre concept et souhaitez que le Crous Truck s'arrête près de 
-        votre bâtiment?&Ccedil;a tombe bien, nous envisageons d'agrandir notre zone de
-        service! Complétez le formulaire ci-dessous et nous étudirons votre demande. </p>
-      <form id="contact_form" method="post" action="https://perso.liris.cnrs.fr/pierre-antoine.champin/enseignement/intro-web/_static/formproc/debug">
-        <label for="nom">Nom</label>
-        <input type ="text" name="nom" id="nom" required>
+      <section class = "contenu">
+        <p>Vous avez adoré notre concept et souhaitez que le Crous Truck s'arrête près de 
+          votre bâtiment?&Ccedil;a tombe bien, nous envisageons d'agrandir notre zone de
+          service! Complétez le formulaire ci-dessous et nous étudirons votre demande. </p>
+        <form id="contact_form" method="post" action="https://perso.liris.cnrs.fr/pierre-antoine.champin/enseignement/intro-web/_static/formproc/debug">
+          <div class="contact_field">
+            <label for="nom">Nom</label>
+            <input type ="text" name="nom" id="nom" required>
+          </div>
 
-        <label for="prenom">Prénom</label>
-        <input type ="text" name="prenom" id="prenom" required>  
+          <div class="contact_field">
+            <label for="prenom">Prénom</label>
+            <input type ="text" name="prenom" id="prenom" required>  
+          </div>
 
-        <label for="location">Localisation:</label>
-        <select name="location" id="location" required>
-          <option value="">Choisissez votre localisation préférée parmi:</option>
-          <option value="MarieCurie">Bibliothèque Marie Curie</option>
-          <option value="RueRaoulDurand">Rue Raoul Durand</option>
-          <option value="squareLaDoua">Square de la Doua</option>
-        </select>
+          <div class="contact_field">
+            <label for="location">Localisation:</label>
+            <select name="location" id="location" required>
+              <option value="">Choisissez votre localisation préférée parmi:</option>
+              <option value="MarieCurie">Bibliothèque Marie Curie</option>
+              <option value="RueRaoulDurand">Rue Raoul Durand</option>
+              <option value="squareLaDoua">Square de la Doua</option>
+            </select>
+          </div>
 
-        <label for="other_ideas">D'autres suggestions d'emplacement?</label>
-        <textarea name="other_ideas" id="other_ideas" cols="20" rows ="10" ></textarea>
+          <div class="contact_field">
+            <label for="other_ideas">D'autres suggestions d'emplacement?</label>
+            <textarea name="other_ideas" id="other_ideas" cols="20" rows ="10" ></textarea>
+          </div>
 
-        <label for="justification">Pourquoi pensez-vous que nous devrions nous arrêter dans votre lieu favori?</label>
-        <textarea for="justification" id="justification" cols="20" rows="20" required></textarea>
-
-        <
-<!--Pourquoi telle localisation, horaire, pourquoi les localisations actuelles ne vont pas-->
-<!--penser à ajouter aussi un lien vers une page qui donne quelles donnees on voudrait que le serveur renvoit au client. -->
-        <button type="submit">Envoyer</button>
-        
-      </form>
-      <p>Pour toutes autres demandes, merci de nous contacter à <span class="contact_email">lecroustruck@gmail.com</span>
-        Et n'hésitez pas à jeter un oeil à nos réseaux sociaux!</p>
-      <!-- instagram, pinterest-->
+          <div class="contact_field">
+            <label for="justification">Pourquoi pensez-vous que nous devrions nous arrêter dans votre lieu favori?</label>
+            <textarea for="justification" id="justification" cols="20" rows="20" required></textarea>
+          </div>
+  <!--Pourquoi telle localisation, horaire, pourquoi les localisations actuelles ne vont pas-->
+  <!--penser à ajouter aussi un lien vers une page qui donne quelles donnees on voudrait que le serveur renvoit au client. -->
+          <button type="submit">Envoyer</button>
+          
+        </form>
+        <p>Pour toutes autres demandes, merci de nous contacter à <span class="contact_email">lecroustruck@gmail.com</span>
+          Et n'hésitez pas à jeter un oeil à nos réseaux sociaux!</p>
+        <!-- instagram, pinterest-->
+      </section>
     </main>
     <footer>
       <p class="credits">Crédits images:</p>
