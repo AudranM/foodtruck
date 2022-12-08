@@ -169,6 +169,22 @@ footer{
     li a:hover, .main-title:hover {
         font-weight: bold; 
     }
+    #img_truck {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #index_presentation {
+        text-align: center;
+        padding: 6rem;
+        font-size: x-large;
+        font-weight: 300;
+    }
+    #tab-index {
+        font-size: large;
+    }
     
     /*Placement des produits sur la page*/
     main{
