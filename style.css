@@ -74,15 +74,11 @@ img {
 .contact_section_form{
     flex-direction: column;
 }
-.contact_form{S
+.contact_form{
     display: flex;
     flex-direction: column;
 }
 /*placement des images du footer*/
-.footer_imgs{
-    max-width: 6rem;
-    
-}
 .footer_icns{
     display: flex;
     flex-direction: row-reverse;
@@ -174,6 +170,11 @@ footer{
     .caption_nous{
         display: none;
     }
+    /*resize des images du footer*/
+    .footer_imgs{
+        max-width: 7rem;
+        
+    }
 }
 
     /*ci-après, la version mobile : */
@@ -208,6 +209,11 @@ footer{
 
     .tab_categorie::before {
         content: "Categorie ";
+    }
+    /*resize des images du footer*/
+    .footer_imgs{
+        max-width: 5rem;
+        
     }
     /*Le code ci-après permet de faire le menu burger et a été trouvé sur le site:  https://codepen.io/alvarotrigo/pen/wvrzPWL,
     Nous avons apporté quelques modifications esthétiques, et nous l'avons adapté pour notre site.*/
