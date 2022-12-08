@@ -73,7 +73,7 @@ img {
 .contact_field {
     display: flex;
     flex-direction: column;
-  }
+}
 /*placement des images du footer*/
 .footer_imgs{
     max-width: 5rem;
@@ -116,7 +116,7 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0.3rem;
-  }
+}
     /*ci-après, la version web :*/
 @media (min-width: 701px) {
     * {
@@ -173,7 +173,7 @@ footer{
     }
     /*Tableau A PROPOS DE NOUS version web*/
     .caption_nous{
-
+        display: none;
     }
     /*Formulaire CONTACT version web*/
     form {
