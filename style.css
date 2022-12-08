@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #f2fdf5;
 }
 
 h1 {
@@ -60,15 +61,31 @@ p.price {
     padding-left: 16rem;
 }
 
-.img {
+.img-items {
     margin-bottom: 1rem;
     max-width: 100%;
     border-radius: 4%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    width: max-content;
 }
 
-img {
-    width: max-content;
+#tab-index {
+    margin-left:auto;
+    margin-right:auto;
+    font-weight: 200;
+    font-size: small;
+}
+
+#tab-index thead{
+    font-variant: small-caps;
+}
+#tab-index td:nth-child(2n+1) {
+    font-weight: 400;
+    text-align: right;
+    padding-right: 1rem;
+}
+#tab-index td:nth-child(2n) {
+    font-weight: 200;
 }
 /*style du formulaire de contact*/
 .contact_section_form{
@@ -88,10 +105,7 @@ footer{
     padding: 1rem;
     background-color: rgb(111, 182, 151);
 }
-#img_truck {
-    padding: 1rem 0rem 4rem 0rem;
-    width: 80%;
-}
+
 
 /*Ci après, permet de faire la carte en responsive: */
 @media (min-width: 701px) and  (max-width: 1130px) {
@@ -117,6 +131,9 @@ footer{
     * {
         margin: 0;
         padding: 0;
+    }
+    #img_truck {
+        padding: 4rem 0rem 4rem 0rem;
     }
     /*Barre de navigation*/
     .checkbox {
@@ -152,6 +169,22 @@ footer{
     }
     li a:hover, .main-title:hover {
         font-weight: bold; 
+    }
+    #img_truck {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #index_presentation {
+        text-align: center;
+        padding: 6rem;
+        font-size: x-large;
+        font-weight: 300;
+    }
+    #tab-index {
+        font-size: large;
     }
     
     /*Placement des produits sur la page*/
