@@ -88,6 +88,10 @@ footer{
     padding: 1rem;
     background-color: rgb(111, 182, 151);
 }
+#img_truck {
+    padding: 1rem 0rem 4rem 0rem;
+    width: 80%;
+}
 
 /*Ci après, permet de faire la carte en responsive: */
 @media (min-width: 701px) and  (max-width: 1130px) {
@@ -185,10 +189,7 @@ footer{
         margin: 0;
         padding: 0;
     }
-    #img_truck {
-        width: 20rem;
-        padding: 1rem 0rem 4rem 0rem;
-    }
+
     #index_presentation {
         padding: 2rem;
         text-align: center;
