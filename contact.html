@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Crous Truck - Contact </title>
-  </head>
-  <body>
-    <nav>
-      <div class="navbar">
-        <div class="nav-container">
-            <input class="checkbox" type="checkbox">
-            <div class="hamburger-lines"> <!--Cette classe sert à faire les 3 lignes du burger-->
-              <span class="line line1"></span>
-              <span class="line line2"></span>
-              <span class="line line3"></span>
-            </div> 
-            <div class="logo">
-              <a class="main-title" href="index.html">Le Crous Truck</a>
-            </div>
-          <div class="menu-items"> <!--Ici, on a nos liens vers nos pages du menu de navigation-->
-            <ul class="navigation">
-              <li><a href="menu.html">Nos Offres</a></li> 
-              <li><a href="nous.html">Qui Sommes Nous ?</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </div>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Crous Truck - Contact </title>
+</head>
+
+<body>
+  <nav>
+    <div class="navbar">
+      <div class="nav-container">
+        <input class="checkbox" type="checkbox">
+        <div class="hamburger-lines">
+          <!--Cette classe sert à faire les 3 lignes du burger-->
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+        <div class="logo">
+          <a class="main-title" href="index.html">Le Crous Truck</a>
+        </div>
+        <div class="menu-items">
+          <!--Ici, on a nos liens vers nos pages du menu de navigation-->
+          <ul class="navigation">
+            <li><a href="menu.html">Nos Offres</a></li>
+            <li><a href="nous.html">Qui Sommes Nous ?</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
         </div>
       </div>
-    </nav>
-    <main>
-      <h1>Contact</h1>
-      <section class = "contenu">
-        <p>Vous avez adoré notre concept et souhaitez que le Crous Truck s'arrête près de 
-          votre bâtiment?&Ccedil;a tombe bien, nous envisageons d'agrandir notre zone de
-          service! Complétez le formulaire ci-dessous et nous étudirons votre demande. </p>
-        <form id="contact_form" method="post" action="https://perso.liris.cnrs.fr/pierre-antoine.champin/enseignement/intro-web/_static/formproc/debug">
+    </div>
+  </nav>
+  <main>
+    <h1>Contact</h1>
+    <section class="contenu">
+      <p>Vous avez adoré notre concept et souhaitez que le Crous Truck s'arrête près de
+        votre bâtiment?&Ccedil;a tombe bien, nous envisageons d'agrandir notre zone de
+        service! Complétez le formulaire ci-dessous et nous étudirons votre demande. </p>
+      <section class="contact_section_form">
+        <form id="contact_form" method="post"
+          action="https://perso.liris.cnrs.fr/pierre-antoine.champin/enseignement/intro-web/_static/formproc/debug">
           <div class="contact_field">
             <label for="nom">Nom</label>
-            <input type ="text" name="nom" id="nom" required>
+            <input type="text" name="nom" id="nom" required>
           </div>
 
           <div class="contact_field">
             <label for="prenom">Prénom</label>
-            <input type ="text" name="prenom" id="prenom" required>  
+            <input type="text" name="prenom" id="prenom" required>
           </div>
 
           <div class="contact_field">
@@ -57,32 +63,36 @@
 
           <div class="contact_field">
             <label for="other_ideas">D'autres suggestions d'emplacement?</label>
-            <textarea name="other_ideas" id="other_ideas" cols="20" rows ="10" ></textarea>
+            <textarea name="other_ideas" id="other_ideas" cols="20" rows="10"></textarea>
           </div>
 
           <div class="contact_field">
-            <label for="justification">Pourquoi pensez-vous que nous devrions nous arrêter dans votre lieu favori?</label>
+            <label for="justification">Pourquoi pensez-vous que nous devrions nous arrêter dans votre lieu
+              favori?</label>
             <textarea for="justification" id="justification" cols="20" rows="20" required></textarea>
           </div>
-  <!--Pourquoi telle localisation, horaire, pourquoi les localisations actuelles ne vont pas-->
-  <!--penser à ajouter aussi un lien vers une page qui donne quelles donnees on voudrait que le serveur renvoit au client. -->
-          <button type="submit">Envoyer</button>
-          
+          <!--Pourquoi telle localisation, horaire, pourquoi les localisations actuelles ne vont pas-->
+          <!--penser à ajouter aussi un lien vers une page qui donne quelles donnees on voudrait que le serveur renvoit au client. -->
+          <button type="submit" class="contact_button">Envoyer</button>
+
         </form>
-        <p>Pour toutes autres demandes, merci de nous contacter à <span class="contact_email">lecroustruck@gmail.com</span>
-          Et n'hésitez pas à jeter un oeil à nos réseaux sociaux!</p>
-        <!-- instagram, pinterest-->
       </section>
-    </main>
-    <footer>
-      <p class="credits">Crédits images:</p>
-      <p class="credits"><a href="https://fr.freepik.com/auteur/stephanie2212">Stephanie2212 sur Freepik</a></p>
-      <p class="credits"><a href="https://fr.freepik.com/auteur/macrovector-official"> macrovector sur Freepik</a></p>
-      <div class="footer_icns">
-        <img src="img/icn_ecofriendly.png" alt="eco friendly" class="footer_imgs">
-        <img src="img/icn_biodegradable.png" alt="biodégradable" class="footer_imgs">
-        <img src="img/fairtrade_logo.png" alt="logo fair trade" class="footer_imgs">
-      </div>
-    </footer>
-  </body>
+      <p>Pour toutes autres demandes, merci de nous contacter à <span
+          class="contact_email">lecroustruck@gmail.com</span>
+        Et n'hésitez pas à jeter un oeil à nos réseaux sociaux!</p>
+      <!-- instagram, pinterest-->
+    </section>
+  </main>
+  <footer>
+    <p class="credits">Crédits images:</p>
+    <p class="credits"><a href="https://fr.freepik.com/auteur/stephanie2212">Stephanie2212 sur Freepik</a></p>
+    <p class="credits"><a href="https://fr.freepik.com/auteur/macrovector-official"> macrovector sur Freepik</a></p>
+    <div class="footer_icns">
+      <img src="img/icn_ecofriendly.png" alt="eco friendly" class="footer_imgs">
+      <img src="img/icn_biodegradable.png" alt="biodégradable" class="footer_imgs">
+      <img src="img/fairtrade_logo.png" alt="logo fair trade" class="footer_imgs">
+    </div>
+  </footer>
+</body>
+
 </html>
