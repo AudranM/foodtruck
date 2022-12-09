@@ -112,6 +112,13 @@ form{
 form div {
     padding: 0.5rem;
 }
+#main-contact{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+#intro-contact {
+    grid-column-start: 2;
+}
 label{
     display: block;
     font-weight: 200;
