@@ -139,20 +139,10 @@ input, textarea {
     text-align: justify;
     max-width: 45rem;
 }
-button {
-    background-color:  rgb(111, 182, 151);
-    border-radius: 0.5rem;
-    color: #eeeeee;
-    text-align: center;
-    font-weight: 100;
-    font-size: medium;
-    padding: 1rem;
-    width: 10rem;
-    }
 
 #required_fields{
-   text-align: right;
-   font-style: italic;
+    text-align: right;
+    font-style: italic;
 }
 .end-form {
     font-weight: 200;
@@ -161,6 +151,16 @@ button {
 
 .contact_button{
     align-self:flex-start;
+    background-color:  rgb(111, 182, 151);
+    border-radius: 0.5rem;
+    color: #eeeeee;
+    text-align: center;
+    font-weight: 100;
+    font-size: medium;
+    padding: 1rem;
+    width: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 #contact_email{
     font-weight: bold;
