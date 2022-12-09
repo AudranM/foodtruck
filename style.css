@@ -109,13 +109,36 @@ form{
     flex-direction: column;
 
 }
+form div {
+    padding: 0.5rem;
+}
 label{
     display: block;
+    font-weight: 200;
+    padding-bottom: 0.2rem;
+}
+#end-form {
+    font-weight: 200;
+    padding: 1rem;
 }
 
 .contact_button{
     align-self:flex-start;
 }
+input, textarea {
+    border  : none;
+    width   : 30rem;
+    background: rgb(225, 236, 231);
+    }
+
+textarea {
+    display : block;
+    width   : 80%;
+    height  : 4rem;
+    resize  : none;
+}
+
+
 
 /*placement des images du footer*/
 .footer_icns{
