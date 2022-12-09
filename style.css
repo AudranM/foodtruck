@@ -175,15 +175,13 @@ a, a:visited{
     text-align: center;
 }
 /*placement du footer*/
-
-
-/*placement des images du footer*/
 .footer_icns{
-    grid-column-start: 3;
+    grid-column-start: 4;
 }
 .footer_icns img {
     padding-left: 1rem;
 }
+
 footer{
     font-weight: 100;
     font-variant:normal;
@@ -211,11 +209,6 @@ footer{
 }
 .img_open_tab{
     max-width: 1rem;
-}
-
-.credit_a:hover {
-    font-weight: unset;
-    text-decoration: underline;
 }
 
 /*Ci après, permet de faire la carte en responsive: */
@@ -405,8 +398,10 @@ footer{
     }
     /*resize des images du footer*/
     .footer_imgs{
-        max-width:3rem;
-        
+        max-width:4rem;
+    }
+    .footer_icns {
+        padding-left: 7rem;
     }
     /*Le code ci-après permet de faire le menu burger et a été trouvé sur le site:  https://codepen.io/alvarotrigo/pen/wvrzPWL,
     Nous avons apporté quelques modifications esthétiques, et nous l'avons adapté pour notre site.*/
