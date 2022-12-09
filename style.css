@@ -33,10 +33,6 @@ h2, h3 {
     text-align: center;
 }
 
-#intro, .contenu{
-    padding: 0em 2em 0em 2em;
-}
-
 .lecrous_transparent p, .lecrous_ou p, .lecrous_quoi p{
     margin-bottom: 1rem;
 }
@@ -92,6 +88,9 @@ p.price {
 }
 #tab-index td:nth-child(2n) {
     font-weight: 200;
+}
+#intro, .contenu{
+    text-align:justify;
 }
 
 /*style du formulaire de contact*/
@@ -223,6 +222,9 @@ a, a:visited{
     #mainimg {
         width: 30rem;
     }
+    #intro, .contenu{
+        padding: 0em 4em 0em 4em;
+    }
     /*Tableau A PROPOS DE NOUS version web*/
     #tableau_nous{
         margin: 0 auto 2rem auto;
@@ -246,6 +248,8 @@ a, a:visited{
         display: block;
         margin-left: auto;
         margin-right: auto;
+        max-width: 100%;
+        
     }
 
     /*resize des images du footer*/
@@ -272,13 +276,24 @@ a, a:visited{
     #mainimg {
         width: 30rem;
     }
+    
+    #intro, .contenu{
+        padding: 0em 1.5em 0em 1.5em;
+    }
+
+    #img_map {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%; 
+    }
     /*version responsive du tableau dans "A propos de nous" */
     .thead_nous {
         display: none;
     }
     caption{
         margin: 1rem 0;
-     }
+    }
     .tab_categorie, .tab_categorie_cafe {
         font-variant: small-caps;
         margin-top: 1rem;
