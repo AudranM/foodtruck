@@ -33,27 +33,27 @@
     </div>
   </nav>
   <main>
-    <h1>Contact</h1>
     <section class="contenu">
+    <h1>Contact</h1>
       <p>Vous avez adoré notre concept et souhaitez que le Crous Truck s'arrête près de
         votre bâtiment?&Ccedil;a tombe bien, nous envisageons d'agrandir notre zone de
         service! Complétez le formulaire ci-dessous et nous étudirons votre demande. </p>
-      <section class="contact_section_form">
+      <div class="contact_section_form">
         <form id="contact_form" method="post"
           action="https://perso.liris.cnrs.fr/pierre-antoine.champin/enseignement/intro-web/_static/formproc/debug">
-          <div class="contact_field">
+          <div class="contact_questions">
             <label for="nom">Nom</label>
-            <input type="text" name="nom" id="nom" required>
+            <input class="contact_field" type="text" name="nom" id="nom" required>
           </div>
 
-          <div class="contact_field">
+          <div class="contact_questions">
             <label for="prenom">Prénom</label>
-            <input type="text" name="prenom" id="prenom" required>
+            <input class="contact_field" type="text" name="prenom" id="prenom" required>
           </div>
 
-          <div class="contact_field">
+          <div class="contact_questions">
             <label for="location">Localisation:</label>
-            <select name="location" id="location" required>
+            <select class="contact_field" name="location" id="location" required>
               <option value="">Choisissez votre localisation préférée parmi:</option>
               <option value="MarieCurie">Bibliothèque Marie Curie</option>
               <option value="RueRaoulDurand">Rue Raoul Durand</option>
@@ -61,22 +61,36 @@
             </select>
           </div>
 
-          <div class="contact_field">
+          <div class="contact_questions">
             <label for="other_ideas">D'autres suggestions d'emplacement?</label>
-            <textarea name="other_ideas" id="other_ideas" cols="20" rows="10"></textarea>
+            <textarea class="contact_field" name="other_ideas" id="other_ideas" cols="20" rows="1"></textarea>
           </div>
 
-          <div class="contact_field">
-            <label for="justification">Pourquoi pensez-vous que nous devrions nous arrêter dans votre lieu
-              favori?</label>
-            <textarea for="justification" id="justification" cols="20" rows="20" required></textarea>
+          <div class="contact_questions">
+            <label for="justification">Pourquoi pensez-vous que nous devrions nous arrêter dans le lieu
+              que vous avez choisi?</label>
+            <textarea class="contact_field" name ="justification" id="justification" cols="20" rows="1" required></textarea>
           </div>
-          <!--Pourquoi telle localisation, horaire, pourquoi les localisations actuelles ne vont pas-->
+
+          <div class="contact_questions">
+            <label for="question_loc_actuelles">Quels sont, selon vous, les principaux incovenients de nos localisations actuelles? </label>
+            <textarea class="contact_field" name ="question_loc_actuelles" id="question_loc_actuelles" cols="20" rows="1" required></textarea>
+          </div>
+
+          <div class="contact_questions">
+            <label for="question_horaire">Que pensez-vous des horaires du CrousTruck?</label>
+            <textarea class="contact_field" name ="question_horaire" id="question_horaire" cols="20" rows="1" ></textarea>
+          </div>
+
+          <div class="contact_questions">
+            <label for="recommendations">Avez-vous d'autres recommendations à faire?</label>
+            <textarea class="contact_field" name ="recommendations" id="recommendations" cols="20" rows="1" ></textarea>
+          </div>
           <!--penser à ajouter aussi un lien vers une page qui donne quelles donnees on voudrait que le serveur renvoit au client. -->
           <button type="submit" class="contact_button">Envoyer</button>
 
         </form>
-      </section>
+      </div>
       <p>Pour toutes autres demandes, merci de nous contacter à <span
           class="contact_email">lecroustruck@gmail.com</span>
         N'hésitez pas à jeter un oeil à nos réseaux sociaux!</p>
