@@ -148,6 +148,9 @@ input, textarea {
     font-weight: 200;
     padding: 1rem;
 }
+#newsletter{
+    width: unset;
+}
 
 .contact_button{
     align-self:flex-start;
