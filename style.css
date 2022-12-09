@@ -136,6 +136,19 @@ a, a:visited{
     margin-top: 1rem;
     text-align: center;
 }
+.credits a{
+    text-decoration: underline;
+}
+.credit_h1{
+    padding: 2rem;
+    background-color: rgb(111, 182, 151);
+}
+.credits_list{
+    padding: 3rem;
+}
+.img_open_tab{
+    max-width: 1.5rem;
+}
 /*Ci après, permet de faire la carte en responsive: */
 @media (min-width: 701px) and  (max-width: 1130px) {
     .produits {
@@ -204,6 +217,12 @@ a, a:visited{
     #index_presentation {
         text-align: center;
         padding: 6rem;
+        font-size: x-large;
+        font-weight: 300;
+    }
+    .index_horaires{
+        text-align: center;
+        padding: 2rem;
         font-size: x-large;
         font-weight: 300;
     }
