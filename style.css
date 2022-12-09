@@ -213,6 +213,11 @@ footer{
     max-width: 1rem;
 }
 
+.credit_a:hover {
+    font-weight: unset;
+    text-decoration: underline;
+}
+
 /*Ci après, permet de faire la carte en responsive: */
 @media (min-width: 701px) and  (max-width: 1130px) {
     .produits {
