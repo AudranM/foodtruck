@@ -34,61 +34,87 @@
     </div>
   </nav>
   <main>
-    <h1>Qui Sommes-nous? </h1>
     <section class="contenu">
-      <p>Le crous truck, votre nouveau lieu de rendez-vous pour le déjeuner!</p>
-      <p>Au coeur du Crous Truck, il y a Jérémie et François, deux anciens étudiants en économie à Lyon 1.
-        L'idée est partie d'un constat: manger étique et manger pas cher ne devrait pas être irréconciliable,
-        Nous produits sont tous issus de l'agriculture durable en circuits courts, et nous nous inscrivons dans une
-        démarche
-        reponsable consommables en biodégradable, le café fairtrade etc. </p>
-        <p>Puisque nous ne vous demendrons jamais de nous croire sur parole, on a opté pour une transparence totale. </p>
-      <p> </p>
-      <p></p>
-      <table id="tableau_nous">
-        <caption id="caption_no">Le tableau ci-dessous présente en détail l'origine de nos produits par catégories :
-        </caption>
-        <thead class="thead_nous">
-          <tr class="tr_nous">
-            <th class="th_nous">Catégorie de produit</th>
-            <th class="th_nous">Origine</th>
-          </tr>
-        </thead>
-        <tbody class="tbody_nous">
-          <tr class="tr_nous">
-            <td rowspan="2" class="tab_categorie">Légumes et céréales</td>
-            <td class="tab_origine">Bouteille Didier, Saint-Martin-en-Haut, Rhône</td>
-          </tr>
-          <tr class="tr_nous">
-            <td class="tab_origine">Jacques Dumont-Samson, Chasselay, Rhône</td>
-          </tr>
-          <tr class="tr_nous">
-            <td rowspan="2" class="tab_categorie">Viandes</td>
-            <td class="tab_origine">Ferme du Milon, Chaponost, Rhône</td>
-          </tr>
-          <tr class="tr_nous">
-            <td class="tab_origine">Ferme des Bornes, Chalain-d'Uzore, Loire</td>
-          </tr>
-          <tr class="tr_nous">
-            <td class="tab_categorie">Fromages</td>
-            <td class="tab_origine">Ferme de la Villardiere, Saint-André-la-Côte, Rhône</td>
-          </tr>
-          <tr class="tr_nous">
-            <td class="tab_categorie">Pains</td>
-            <td class="tab_origine">L'Atelier du Levain, Saint-Genis-les-Ollières, Rhône</td>
-          </tr>
-          <tr class="tr_nous">
-            <td class="tab_categorie">Fruits</td>
-            <td class="tab_origine">Bertrand Saignant, Chasselay, Rhône </td>
-          </tr>
-          <tr class="tr_nous">
-            <td class="tab_categorie">Café</td>
-            <td class="tab_origine">Puerto Lopez Plantation, Puerto Lopez, Perou</td>
-          </tr>
-        </tbody>
-      </table>
-      <p>Merci à nos éleveurs, nos agriculteurs, sans qui nous ne pourrions pas vous proposer d'aussi bons produits!</p>
-      <p>En partenariat avec la Ruche</p>
+      <h1>Qui Sommes-nous? </h1>
+      <section class="lecrous_quoi">
+        <h2>Le Crous Truck, qu'est-ce que c'est?</h2>
+        <p>Le crous truck, c'est votre nouveau lieu de rendez-vous diet-éthique pour le déjeuner!</p>
+        <p>A l'origine du Crous Truck, il y a Jérémie et François, deux anciens étudiants en économie à Lyon 1.
+          L'idée est partie d'un constat: manger étique et manger pas cher ne devrait pas être irréconciliable.
+          Ainsi, nous nous inscrivons dans une
+          démarche (éco)responsable: tous nos consommables sont biodégradable, nos produits sont tous issus de l'agriculture durable 
+          en circuits courts, notre café fairtrade, et tout ça, au moindre prix! </p>
+      </section>
+      <section class="lecrous_ou">
+        <h2>Où nous trouver?</h2>
+        <p>A Villeurbanne, les mardi et jeudi au 23 Avenue Pierre de Coubertin, près de la Bibliothèque Universitaire des Sciences, les mercredi et
+          vendredi au 10 Rue de la Technologie, près de Bibliothèque Universitaire de l'IUT.</p>
+        <p>Vous avez du mal à nous trouver? Pas de panique, nous avons pensé à tout! Le point violet sur la carte ci-après
+          représente le 23 Avenue Pierre de Coubertin, le point orange le 10 Rue de la Technologie : </p>
+        <picture>
+          <source media="(max-width: 700px)" srcset="img/croustruck_location_small.png">
+          <source media="(min-width: 701px)" srcset="img/croustruck_location_large.png">
+          <img id="img_map" src="img/croustruck_location_large.png" alt="Carte de Villeurbanne montrant les arrêts du Crous Truck">
+        </picture>
+      </section>
+      <section class="lecrous_transparent">
+        <h2>Quelques données pour plus de transparence</h2>
+        <p>Saviez-vous que, en France, 5,7 kg d’emballages alimentaires sont produits chaque seconde par l’industrie des
+          fast-food? C'est l’équivalent de 180 000 tonnes d’emballages
+          chaque année! Chez Crous Truck, non seulement nous n'utilisons pas de plastique à usage unique, mais nous
+          compostons tous nos déchets, en partenariat avec
+          l'association Eisenia Lyon.</p>
+        <p>De plus, nous nous efforçons de renfoncer nos liens avec notre belle région, c'est pourquoi 95% de nos
+          produits sont issus de la région Rhône Alpes! Voyez plutôt par
+          vous-même...</p>
+        <table id="tableau_nous">
+          <caption>Origine de nos produits par catégories :</caption>
+          <thead class="thead_nous">
+            <tr class="tr_nous">
+              <th class="th_nous">Catégorie de produit</th>
+              <th class="th_nous">Origine</th>
+            </tr>
+          </thead>
+          <tbody class="tbody_nous">
+            <tr class="tr_nous">
+              <td rowspan="2" class="tab_categorie">Légumes et céréales</td>
+              <td class="tab_origine tworows_top">Bouteille Didier, Saint-Martin-en-Haut, Rhône</td>
+            </tr>
+            <tr class="tr_nous">
+              <td class="tab_origine tworows_bottom">Jacques Dumont-Samson, Chasselay, Rhône</td>
+            </tr>
+            <tr class="tr_nous">
+              <td rowspan="2" class="tab_categorie">Viandes</td>
+              <td class="tab_origine tworows_top">Ferme du Milon, Chaponost, Rhône</td>
+            </tr>
+            <tr class="tr_nous">
+              <td class="tab_origine tworows_bottom">Ferme des Bornes, Chalain-d'Uzore, Loire</td>
+            </tr>
+            <tr class="tr_nous">
+              <td class="tab_categorie">Fromages</td>
+              <td class="tab_origine solo_row">Ferme de la Villardiere, Saint-André-la-Côte, Rhône</td>
+            </tr>
+            <tr class="tr_nous">
+              <td class="tab_categorie">Pains</td>
+              <td class="tab_origine solo_row">L'Atelier du Levain, Saint-Genis-les-Ollières, Rhône</td>
+            </tr>
+            <tr class="tr_nous">
+              <td class="tab_categorie">Fruits</td>
+              <td class="tab_origine solo_row">Bertrand Saignant, Chasselay, Rhône </td>
+            </tr>
+            <tr class="tr_nous">
+              <td class="tab_categorie_cafe">Café</td>
+              <td class="tab_origine solo_row">Puerto Lopez Plantation, Puerto Lopez, Perou</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="acknowledgements">
+          <p>Merci à nos éleveurs et nos agriculteurs, sans qui nous ne pourrions pas vous proposer d'aussi bons
+            produits!</p>
+          <p>En partenariat avec la Ruche.</p>
+        </div>
+
+      </section>
     </section>
   </main>
   <footer>
