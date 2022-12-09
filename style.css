@@ -97,13 +97,7 @@ p.price {
 label{
     align-content: flex-start;
 }
-.contact_field{
-    align-content: flex-start;
-}
-.contact_section_form{
-    margin-right:auto;
-    margin-left: auto;
-}
+
 form{
     display: flex;
     flex-direction: column;
@@ -156,8 +150,11 @@ button {
     width: 10rem;
     }
 
-
-#end-form {
+#required_fields{
+   text-align: right;
+   font-style: italic;
+}
+.end-form {
     font-weight: 200;
     padding: 1rem;
 }
@@ -165,7 +162,9 @@ button {
 .contact_button{
     align-self:flex-start;
 }
-
+#contact_email{
+    font-weight: bold;
+}
 a, a:visited{
     color: black;
     text-decoration: none;
