@@ -37,6 +37,12 @@ h2, h3 {
     padding: 0em 2em 0em 2em;
 }
 
+.lecrous_transparent p, .lecrous_ou p, .lecrous_quoi p{
+    margin-bottom: 1rem;
+}
+.tab_categorie, .tab_origine{
+    padding: 0.2rem;
+}
 
 h2 {
     padding-left: 3rem;
@@ -87,14 +93,31 @@ p.price {
 #tab-index td:nth-child(2n) {
     font-weight: 200;
 }
+
 /*style du formulaire de contact*/
-.contact_section_form{
-    flex-direction: column;
+label{
+    align-content: flex-start;
 }
-.contact_form{
+.contact_field{
+    align-content: flex-start;
+}
+.contact_section_form{
+    margin-right:auto;
+    margin-left: auto;
+}
+form{
     display: flex;
     flex-direction: column;
+
 }
+label{
+    display: block;
+}
+
+.contact_button{
+    align-self:flex-start;
+}
+
 /*placement des images du footer*/
 .footer_icns{
     display: flex;
@@ -110,7 +133,10 @@ a, a:visited{
     color: black;
     text-decoration: none;
 }
-
+.acknowledgements{
+    margin-top: 1rem;
+    text-align: center;
+}
 /*Ci après, permet de faire la carte en responsive: */
 @media (min-width: 701px) and  (max-width: 1130px) {
     .produits {
@@ -136,9 +162,7 @@ a, a:visited{
         margin: 0;
         padding: 0;
     }
-    #img_truck {
-        padding: 4rem 0rem 4rem 0rem;
-    }
+
     /*Barre de navigation*/
     .checkbox {
         display: none;
@@ -172,7 +196,7 @@ a, a:visited{
         font-weight: bold; 
     }
     #img_truck {
-
+        padding: 4rem 0rem 4rem 0rem;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -195,20 +219,41 @@ a, a:visited{
     .produits {
         display: grid;
     }
-    /*Placement image sur la page A CHANGER PARCE QU'ELLE A DIT DE CHARGER DEUX IMAGES
-    UNE POUR WEB UNE POUR MOBILE*/
+
     #mainimg {
         width: 30rem;
     }
     /*Tableau A PROPOS DE NOUS version web*/
-    .caption_nous{
-        display: none;
+    #tableau_nous{
+        margin: 0 auto 2rem auto;
     }
+    caption{
+        margin: 2rem 0;
+    }
+    .tworows_top{
+        padding-top: 0.5rem;
+    }
+    .tworows_bottom{
+        padding-bottom: 0.5rem;
+    }
+    .solo_row{
+        padding: 0.5rem 0;
+    }
+    .tab_categorie, .th_nous{
+        padding-right: 2rem;
+    }
+    #img_map{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     /*resize des images du footer*/
     .footer_imgs{
         max-width: 7rem;
         
     }
+
 }
 
     /*ci-après, la version mobile : */
@@ -231,18 +276,23 @@ a, a:visited{
     .thead_nous {
         display: none;
     }
-
-    .tab_categorie {
+    caption{
+        margin: 1rem 0;
+     }
+    .tab_categorie, .tab_categorie_cafe {
         font-variant: small-caps;
+        margin-top: 1rem;
     }
-
     .tr_nous {
         display: flex;
         flex-direction: column;
     }
 
     .tab_categorie::before {
-        content: "Categorie ";
+        content: "Les ";
+    }
+    .tab_categorie_cafe::before{
+        content: "Le ";
     }
     /*resize des images du footer*/
     .footer_imgs{
